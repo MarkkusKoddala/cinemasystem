@@ -23,8 +23,8 @@ Järgige neid samme, et käivitada teie projekt kasutades Docker Compose'i.
 Esmalt kloonige projekti repositorium oma kohalikku süsteemi.
 
 ```bash
-git clone https://github.com/teiekasutajanimi/projekti_nimi.git
-cd projekti_nimi
+git clone https://github.com/MarkkusKoddala/cinemasystem.git
+cd cinemasystem
 ```
 
 ### 2. Ehita ja Käivita Konteinerid
