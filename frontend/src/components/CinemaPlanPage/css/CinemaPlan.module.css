@@ -1,0 +1,34 @@
+.cinemaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screen {
+    width: 80%;
+    height: 50px;
+    background-color: #cccccc;
+    margin: 50px 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+.cinema {
+    display: grid;
+    gap: 5px;
+
+}
+
+.seat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.AVAILABLE { background-color: #409040; }
+.OCCUPIED { background-color: #b61616; }
+.RECOMMENDED { background-color: yellow }
+

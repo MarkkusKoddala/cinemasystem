@@ -1,0 +1,48 @@
+/* NavigationBar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9; /* Darker shade for better contrast */
+    color: black;
+    padding: 10px 20px; /* Increased horizontal padding for more space */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
+}
+
+.navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navItem {
+    margin: 0 15px; /* More space between menu items */
+}
+
+.navLink {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover, .navLink:focus {
+    color: #1E90FF; /* Highlight color on hover/focus */
+}
+
+.selectBox {
+    padding: 5px 10px; /* Padding for better touch */
+    background-color: #fff; /* Background color for the select */
+    color: #333; /* Text color for options */
+    border: 1px solid #ccc; /* Border to define edges */
+    border-radius: 5px; /* Rounded corners for modern look */
+    outline: none; /* Remove outline to avoid default browser styles */
+    cursor: pointer; /* Cursor to indicate it's selectable */
+    transition: all 0.3s ease; /* Transition for interactive feedback */
+}
+
+.selectBox:hover {
+    background-color: #f8f8f8; /* Lighter background on hover */
+    border-color: #bbb; /* Darker border on hover for emphasis */
+}

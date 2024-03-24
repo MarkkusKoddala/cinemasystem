@@ -1,0 +1,51 @@
+# Java
+/target/
+
+# Node
+/node_modules/
+
+# IDEs and editors
+/.idea/
+*.code-workspace
+.vscode/
+*.sublime-workspace
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+
+# Build outputs
+/dist/
+/build/
+/out/
+*.log
+
+# Dependency directories (commented out if you wish to include in your repository)
+#/vendor/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional artifacts
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
