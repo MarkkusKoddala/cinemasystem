@@ -1,9 +1,11 @@
-ENGLISH BELOW
-
+# CGI Proovitöö
 Cinemasystem on veebirakendus, mis koosneb kahest osast front-endist ja back-endist. Süsteemi enda üldine idee on implemnteerida kinokülastaja võimalust valida ning filtreerida parameetrite põhjal kinokava, küsida filmisoovitusi ning valitud piletite arvu puhul näha ka kinosaali plaani,
 kus on ka istekohtade soovitused.
 
-Projekti struktuur on lihtne, projekt koosneb kahest osast - front end ja back end, kus on omakorda veel readme failid, mis seletavad täpsemalt lahti projekti struktuuri.
+Projekt sisaldab kõiki oodatud arendusi ning lisaks arendusi "Kui aega üle jääb" osast. Ainukene puudus on testid, mida pole kirjutatud. Üldiselt oli projekt üsnagi arusaadav ning suuri takistusi ei olnud. Kõik lahendused sai enda poolt läbi mõeldud ning loodud, interneti või AI-d kasutasin peamiselt
+teatud süntaksikujude või siis projektide konfigueerimiseks. Ajakulu kogu projekti loomiseks oli ca 20h.
+
+Projekti struktuur on lihtne, projekt koosneb kahest osast - front end ja back end, kus on omakorda veel readme failid, mis seletavad täpsemalt lahti projekti strukturi.
 
 Projekti käivitamiseks on võimalusi mitmeid. Kõige lihtsam neist on kirjeldatud allpool koos Docker containeritega. 
 
