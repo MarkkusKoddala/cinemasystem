@@ -6,7 +6,7 @@ RUN npm ci
 COPY . ./
 RUN npm run build
 
-FROM node:16
+FROM node:20
 WORKDIR /app
 COPY --from=build /app/build /app
 # Installi serve: lihtne staatiliste failide server
