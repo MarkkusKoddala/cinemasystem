@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react';
 import apiService from "../../service/ApiService";
 import styles from "./css/FilterBlock.module.css"
 
+
+//osa koodist, mis implementeerib filtreerimsie formi
 const FilterBlock = ({ submitClicked, recommendationsClicked, user, setFilters, filters }) => {
     const [movieAttributes, setMovieAttributes] = useState({ genres: [], languages: [] });
 

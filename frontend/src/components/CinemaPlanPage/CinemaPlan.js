@@ -3,25 +3,10 @@ import styles from './css/CinemaPlan.module.css';
 
 
 
+//Kuvab kinosaali isteplaani
 
 const CinemaPlan = ({cinemaHallPlan }) => {
-    const [selectedSeats, setSelectedSeats] = useState([]);
     const { rows, cols, seats } = cinemaHallPlan;
-
-
-    console.log(cinemaHallPlan)
-    const handleSeatClick = (seat) => {
-        if (seat.status === 'available') {
-            const newSelection = selectedSeats.includes(seat.id)
-                ? selectedSeats.filter(id => id !== seat.id)
-                : [...selectedSeats, seat.id];
-            setSelectedSeats(newSelection);
-        }
-    };
-
-
-
-
 
     return (
         <div className={styles.cinemaContainer}>

@@ -4,11 +4,14 @@ import {useError} from "../../contexts/ErrorContext";
 import {formatDateAndTime} from "../../utils/formatDateAndTime";
 import {useNavigate} from "react-router-dom";
 
+
+//kuvab filteerimise tulemused ehk kinokava
 const FilterResults = ({searchResults, ticketQuantities, setTicketQuantities}) => {
     const {triggerError} = useError();
     const navigate = useNavigate();
 
     const handleQuantityChange = (movie, index, quantity) => {
+        //süsteem lubab valida pileteid ainult ühe filmi linastusele, indeksiks on map-i poolt genereeritud indeks
         setTicketQuantities({
             [index]: {
                 quantity: quantity,
@@ -25,6 +28,7 @@ const FilterResults = ({searchResults, ticketQuantities, setTicketQuantities}) =
             return;
         }
 
+        //navigeerib vajutuse korral uuele lehele
         navigate("/cinemaplan", {state: {ticketQuantity: selectedTicket.quantity, movie: selectedTicket.movie}})
     }
 
