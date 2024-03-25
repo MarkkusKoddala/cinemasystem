@@ -16,8 +16,8 @@ Projekt koosneb järgmistest peamistest osadest:
   - `../repository/`: Kaust, kus asuvad repositoryd andmebaasi päringuteks.
   - `../service/`: Service tegeleb igasugu loogikaga, mis on vaja teha päringu tagastamse ja andmebaasi vahel.
   - `../utils/`: Sisaldab funktsiooni, kus mapitakse tulemus DTOks.
-  - `../data.sql/`: SQL päringud, mis käivituvad, kui käivitatakse server
-  - `../application.properties/`: Defineerib seadeid jms
+  - `../data.sql/`: SQL päringud, mis käivitatakse serveri loomisel
+  - `../application.properties/`: Sisaldab konfiguratsioone
  
 - `Dockerfile`: Sisaldab juhiseid front-endi Docker pildi loomiseks.
 - 
