@@ -3,7 +3,7 @@ Cinemasystem on veebirakendus, mis koosneb kahest osast front-endist ja back-end
 kus on ka istekohtade soovitused.
 
 Projekt sisaldab kõiki oodatud arendusi ning lisaks arendusi "Kui aega üle jääb" osast. Ainukene puudus on testid, mida pole kirjutatud. Üldiselt oli projekt üsnagi arusaadav ning suuri takistusi ei olnud. Kõik lahendused sai enda poolt läbi mõeldud ning loodud, interneti või AI-d kasutasin peamiselt
-teatud süntaksikujude või siis projektide konfigueerimiseks. Ajakulu kogu projekti loomiseks oli ca 20h.
+teatud süntaksikujude või siis projektide konfigueerimiseks. Ajakulu kogu projekti loomiseks oli ca 30h-35h.
 
 Projekt ise on giti lisatud, kui see oli praktiliselt valmis. Soovi, et kogu lahendust giti samm-haaval pushida, märkasin kahjuks hiljem, kuid võin kinnitada, et kogu projekt on minu enda poolt kirjutatud ja saan aru, mis on iga rea mõte siin koodis.
 
