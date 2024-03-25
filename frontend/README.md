@@ -1,5 +1,5 @@
 
-# Projekti Nimi
+# cinamonsystem front end
 
 Tegemist on kinorakenduse front-end poolse osaga. Allpool on toodud, kuidas jaguneb selle projekti struktuur ning kuidas on võimalik käivitada projekti dockeri või npm-ga.
 
